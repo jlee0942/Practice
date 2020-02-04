@@ -12,7 +12,7 @@ for line in fh:
     else : continue
 #   line=line.rstrip()
 #   address=line.split()
-#   if adress[0]!=('From ') or len[address]<1(글자수):
+#   if  len[address]<1 or (글자수)adress[0]!=('From '):
 #      continue
 #   else:........
 #
