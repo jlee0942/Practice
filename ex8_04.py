@@ -2,8 +2,8 @@ fname = input("Enter file name: ")
 fh = open(fname)
 lst = list()
 for line in fh:
-    line2=line.rstrip()
-    line2.split()
-    lst=lst+line2
+    f=line.split()
+    for word in f:
+        lst.append(word)
 lst.sort()
 print(lst)
