@@ -10,5 +10,10 @@ for line in fh:
         count=count+1
         print(address[1])
     else : continue
-
+#   line=line.rstrip()
+#   address=line.split()
+#   if adress[0]!=('From ') or len[address]<1(글자수):
+#      continue
+#   else:........
+#
 print("There were", count, "lines in the file with From as the first word")
